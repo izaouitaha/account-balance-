@@ -1,12 +1,5 @@
 # account-balance-
 bank account
-This project is a simple Python script called bank_account.py that simulates basic bank account operations using a class.
-The Account class includes:
-account_number
-account_balance
-account_holder
-It also has methods to:
-Deposit money
-Withdraw money (only if there is enough balance)
-Check the current balance
-The program creates multiple account instances and performs different transactions to test the functionality.
+A simple Python project that demonstrates basic object-oriented programming
+by creating a bank account class with deposit,
+withdraw, and balance checking methods.

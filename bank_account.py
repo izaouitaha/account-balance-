@@ -15,17 +15,17 @@ class Account:
         return self.account_balance
 
 
-my_account = Account("1", 1000.0, "Taha")
+my_account = Account("1", 1000, "Taha")
 
-my_account.deposit(500.0)
-my_account.withdraw(300.0)
+my_account.deposit(500)
+my_account.withdraw(300)
 
 print(my_account.check_balance())
 
 
-account2 = Account("2", 200.0, "Ali")
+account2 = Account("2", 200, "Ali")
 
-account2.deposit(100.0)
-account2.withdraw(50.0)
+account2.deposit(100)
+account2.withdraw(50)
 
 print(account2.check_balance())
